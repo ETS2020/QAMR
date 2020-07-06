@@ -1,0 +1,14 @@
+# This file contains information about inputs as read by the program
+
+ Population size               = 256
+ Number of generations         = 256
+ Number of objective functions = 2
+ Number of constraints         = 0
+ Number of real variables      = 0
+ Number of binary variables = 1
+ Number of bits for binary variable 1 = 7
+ Probability of crossover of binary variable = 6.000000e-01
+ Probability of mutation of binary variable 1 = 1.428571e-01
+ Seed for random number generator = 8.622668e-01
+ Number of crossover of binary variable = 19583
+ Number of mutation of binary variable  = 65374
