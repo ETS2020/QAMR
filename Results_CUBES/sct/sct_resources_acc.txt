@@ -1,0 +1,2 @@
+Cubes   : 219
+Literals: 666

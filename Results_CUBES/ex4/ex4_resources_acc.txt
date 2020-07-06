@@ -1,0 +1,2 @@
+Cubes   : 1860
+Literals: 13212

@@ -1,0 +1,2 @@
+Cubes   : 81
+Literals: 243
