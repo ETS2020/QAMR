@@ -1,2 +1,0 @@
-Cubes   : 120
-Literals: 120
