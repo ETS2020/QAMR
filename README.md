@@ -9,12 +9,12 @@ Every experiment is made of 256 generations with an initial population of the sa
 ### CUBES
 Objectives: Number of cubes and non-* literals as reported in [this paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587768).
 
->### a) ETS2020
+>#### a) ETS2020
 >> a1. Multi-level
 
 >> a2. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_CUBES/ETS2020/Results_TWOLEVELS)
 
->### b) NEW
+>#### b) NEW
 >> b1. Multi-level
 
 >> b2. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_CUBES/NEW/Results_TWOLEVELS)
@@ -23,14 +23,14 @@ Objectives: Number of cubes and non-* literals as reported in [this paper](https
 ### FPGA
 Objectives: Number of LUTs and CP w.r.t. 6-input LUTs mapped with the [*if*](https://people.eecs.berkeley.edu/~alanmi/publications/2007/fpga07_fast.pdf) command from ABC.
 
->### a) ETS2020
+>#### a) ETS2020
 >> a1. Multi-level
 
 >> a2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_FPGA/ETS2020/Results_resyn2)
 
 >> a3. Two-level
 
->### b) NEW
+>#### b) NEW
 >> b1. Multi-level
 
 >> b2. Multi-level (resyn2)
@@ -41,14 +41,14 @@ Objectives: Number of LUTs and CP w.r.t. 6-input LUTs mapped with the [*if*](htt
 ### LIBRARY
 Objectives: area and delay w.r.t. the [mcnc](http://www.ecs.umass.edu/ece/labs/vlsicad/ece667/links/mcnc.genlib) standard cell library, balanced and mapped with the [*map*](https://people.eecs.berkeley.edu/~alanmi/abc/abc.htm#_Toc179291840) command.
 
->### a) ETS2020
+>#### a) ETS2020
 >> a1. [Multi-level](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/ETS2020/Results_MULTILEVEL)
 
 >> a2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/ETS2020/Results_resyn2)
 
 >> a3. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/ETS2020/Results_TWOLEVELS)
 
->### b) NEW
+>#### b) NEW
 >> b1. [Multi-level](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/NEW/Results_MULTILEVEL)
 
 >> b2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/NEW/Results_resyn2)
