@@ -28,7 +28,7 @@ Objectives: Number of LUTs and CP w.r.t. 6-input LUTs mapped with the [*if*](htt
 
 >> a2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_FPGA/ETS2020/Results_resyn2)
 
->> a3. Two-level
+>> a3. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_FPGA/ETS2020/Results_TWOLEVELS)
 
 >#### b) NEW
 >> b1. Multi-level
