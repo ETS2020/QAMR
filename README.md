@@ -24,6 +24,7 @@ Objectives: Number of cubes and non-* literals as reported in [this paper](https
 
 >> c2. Two-level
 
+<br/><br/>
 # 
 ### FPGA
 Objectives: Number of LUTs and CP w.r.t. 6-input LUTs mapped with the [*if*](https://people.eecs.berkeley.edu/~alanmi/publications/2007/fpga07_fast.pdf) command from ABC.
