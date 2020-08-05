@@ -17,7 +17,7 @@ Objectives: Number of cubes and non-* literals as reported in [this paper](https
 >#### b) DSE INPUT
 >> b1. Multi-level
 
->> b2. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_CUBES/NEW/Results_TWOLEVELS)
+>> b2. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_CUBES/DSE_INPUT/Results_TWOLEVELS)
 
 >#### c) DSE INPUT/OUTPUT
 >> c1. Multi-level
@@ -63,11 +63,11 @@ Objectives: area and delay w.r.t. the [mcnc](http://www.ecs.umass.edu/ece/labs/v
 >> a3. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/ETS2020/Results_TWOLEVELS)
 
 >#### b) DSE INPUT
->> b1. [Multi-level](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/NEW/Results_MULTILEVEL)
+>> b1. [Multi-level](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/DSE_INPUT/Results_MULTILEVEL)
 
->> b2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/NEW/Results_resyn2)
+>> b2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/DSE_INPUT/Results_resyn2)
 
->> b3. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/NEW/Results_TWOLEVELS)
+>> b3. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_LIBRARY/DSE_INPUT/Results_TWOLEVELS)
 
 >#### c) DSE INPUT/OUTPUT
 >> c1. Multi-level
