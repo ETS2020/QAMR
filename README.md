@@ -39,14 +39,14 @@ Objectives: Number of LUTs and CP w.r.t. 6-input LUTs mapped with the [*if*](htt
 >#### b) DSE INPUT
 >> b1. Multi-level
 
->> b2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_FPGA/NEW/Results_resyn2/)
+>> b2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_FPGA/DSE_INPUT/Results_resyn2/)
 
->> b3. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_FPGA/NEW/Results_TWOLEVELS)
+>> b3. [Two-level](https://github.com/ETS2020/QAMR/tree/master/Results_FPGA/DSE_INPUT/Results_TWOLEVELS)
 
 >#### c) DSE INPUT/OUTPUT
 >> c1. Multi-level
 
->> c2. Multi-level (resyn2)
+>> c2. [Multi-level (resyn2)](https://github.com/ETS2020/QAMR/tree/master/Results_FPGA/DSE_INPUT_OUTPUT/Results_resyn2)
 
 >> c3. Two-level
 
