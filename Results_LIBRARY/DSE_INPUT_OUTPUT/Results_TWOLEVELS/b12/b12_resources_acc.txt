@@ -1,0 +1,2 @@
+Cubes   : 1293
+Literals: 5547

@@ -1,0 +1,2 @@
+Cubes   : 144
+Literals: 480
