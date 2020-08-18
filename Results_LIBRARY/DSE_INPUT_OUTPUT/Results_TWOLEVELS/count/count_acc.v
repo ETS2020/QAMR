@@ -1,4 +1,4 @@
-// Benchmark "FAU" written by ABC on Tue Aug 18 10:20:09 2020
+// Benchmark "FAU" written by ABC on Tue Aug 18 10:29:18 2020
 
 module FAU ( 
     x00, x01, x02, x03, x04, x05, x06, x07, x08, x09, x10, x11, x12, x13,
@@ -11,181 +11,181 @@ module FAU (
     x27, x28, x29, x30, x31, x32, x33, x34;
   output z00, z01, z02, z03, z04, z05, z06, z07, z08, z09, z10, z11, z12, z13,
     z14, z15;
-  wire new_n52_, new_n53_, new_n54_, new_n55_, new_n56_, new_n57_, new_n59_,
-    new_n60_, new_n61_, new_n62_, new_n63_, new_n64_, new_n65_, new_n67_,
-    new_n68_, new_n69_, new_n70_, new_n71_, new_n72_, new_n73_, new_n75_,
-    new_n76_, new_n77_, new_n78_, new_n79_, new_n80_, new_n81_, new_n82_,
-    new_n84_, new_n85_, new_n86_, new_n87_, new_n88_, new_n89_, new_n90_,
-    new_n91_, new_n93_, new_n94_, new_n95_, new_n96_, new_n97_, new_n98_,
-    new_n99_, new_n100_, new_n102_, new_n103_, new_n104_, new_n105_,
-    new_n106_, new_n107_, new_n108_, new_n109_, new_n111_, new_n112_,
+  wire new_n52_, new_n53_, new_n54_, new_n55_, new_n56_, new_n57_, new_n58_,
+    new_n59_, new_n61_, new_n62_, new_n63_, new_n64_, new_n65_, new_n66_,
+    new_n67_, new_n69_, new_n70_, new_n71_, new_n72_, new_n73_, new_n74_,
+    new_n76_, new_n77_, new_n78_, new_n79_, new_n81_, new_n82_, new_n83_,
+    new_n84_, new_n85_, new_n86_, new_n88_, new_n89_, new_n90_, new_n91_,
+    new_n92_, new_n93_, new_n94_, new_n95_, new_n96_, new_n98_, new_n99_,
+    new_n100_, new_n101_, new_n102_, new_n103_, new_n104_, new_n105_,
+    new_n106_, new_n108_, new_n109_, new_n110_, new_n111_, new_n112_,
     new_n113_, new_n114_, new_n115_, new_n116_, new_n117_, new_n118_,
-    new_n119_, new_n121_, new_n122_, new_n123_, new_n124_, new_n125_,
-    new_n126_, new_n127_, new_n128_, new_n129_, new_n131_, new_n132_,
-    new_n133_, new_n134_, new_n135_, new_n136_, new_n137_, new_n138_,
-    new_n139_, new_n140_, new_n142_, new_n143_, new_n144_, new_n145_,
-    new_n146_, new_n147_, new_n148_, new_n149_, new_n150_, new_n152_,
-    new_n153_, new_n154_, new_n155_, new_n156_, new_n157_, new_n158_,
-    new_n159_, new_n160_, new_n162_, new_n163_, new_n164_, new_n165_,
-    new_n166_, new_n167_, new_n168_, new_n169_, new_n170_, new_n172_,
-    new_n173_, new_n174_, new_n175_, new_n176_, new_n177_, new_n178_,
-    new_n179_, new_n180_, new_n181_, new_n183_, new_n184_, new_n185_,
-    new_n186_, new_n187_, new_n188_, new_n189_, new_n190_, new_n191_,
-    new_n192_, new_n194_, new_n195_, new_n196_, new_n197_, new_n198_,
+    new_n120_, new_n121_, new_n122_, new_n123_, new_n124_, new_n125_,
+    new_n127_, new_n128_, new_n129_, new_n130_, new_n131_, new_n132_,
+    new_n133_, new_n134_, new_n136_, new_n137_, new_n138_, new_n139_,
+    new_n140_, new_n141_, new_n142_, new_n143_, new_n144_, new_n146_,
+    new_n147_, new_n148_, new_n149_, new_n150_, new_n151_, new_n152_,
+    new_n153_, new_n154_, new_n156_, new_n157_, new_n158_, new_n159_,
+    new_n160_, new_n161_, new_n162_, new_n163_, new_n164_, new_n165_,
+    new_n167_, new_n168_, new_n169_, new_n170_, new_n171_, new_n172_,
+    new_n173_, new_n174_, new_n175_, new_n176_, new_n178_, new_n179_,
+    new_n180_, new_n181_, new_n182_, new_n183_, new_n184_, new_n185_,
+    new_n186_, new_n188_, new_n189_, new_n190_, new_n191_, new_n192_,
+    new_n193_, new_n194_, new_n195_, new_n196_, new_n197_, new_n198_,
     new_n199_, new_n200_, new_n201_, new_n202_, new_n203_;
-  assign new_n52_ = x17 & x19;
-  assign new_n53_ = ~x17 & ~x19;
-  assign new_n54_ = ~new_n52_ & ~new_n53_;
-  assign new_n55_ = x16 & ~new_n54_;
-  assign new_n56_ = ~x15 & ~x16;
-  assign new_n57_ = ~x18 & ~new_n56_;
-  assign z00 = new_n55_ | ~new_n57_;
-  assign new_n59_ = x20 & ~new_n53_;
-  assign new_n60_ = ~x19 & ~x20;
-  assign new_n61_ = ~x17 & new_n60_;
-  assign new_n62_ = ~new_n59_ & ~new_n61_;
-  assign new_n63_ = x16 & ~new_n62_;
-  assign new_n64_ = ~x14 & ~x16;
-  assign new_n65_ = ~x18 & ~new_n64_;
-  assign z01 = new_n63_ | ~new_n65_;
-  assign new_n67_ = x21 & ~new_n61_;
-  assign new_n68_ = ~x20 & ~x21;
-  assign new_n69_ = new_n53_ & new_n68_;
-  assign new_n70_ = ~new_n67_ & ~new_n69_;
-  assign new_n71_ = x16 & ~new_n70_;
-  assign new_n72_ = ~x13 & ~x16;
-  assign new_n73_ = ~x18 & ~new_n72_;
-  assign z02 = new_n71_ | ~new_n73_;
-  assign new_n75_ = x22 & ~new_n69_;
-  assign new_n76_ = ~x21 & ~x22;
-  assign new_n77_ = ~x20 & new_n76_;
-  assign new_n78_ = new_n53_ & new_n77_;
-  assign new_n79_ = ~new_n75_ & ~new_n78_;
-  assign new_n80_ = x16 & ~new_n79_;
-  assign new_n81_ = ~x12 & ~x16;
-  assign new_n82_ = ~x18 & ~new_n81_;
-  assign z03 = new_n80_ | ~new_n82_;
-  assign new_n84_ = x23 & ~new_n78_;
-  assign new_n85_ = ~x22 & ~x23;
-  assign new_n86_ = ~x21 & new_n85_;
-  assign new_n87_ = new_n61_ & new_n86_;
-  assign new_n88_ = ~new_n84_ & ~new_n87_;
-  assign new_n89_ = x16 & ~new_n88_;
-  assign new_n90_ = ~x11 & ~x16;
-  assign new_n91_ = ~x18 & ~new_n90_;
-  assign z04 = new_n89_ | ~new_n91_;
-  assign new_n93_ = x24 & ~new_n87_;
-  assign new_n94_ = ~x23 & ~x24;
-  assign new_n95_ = new_n76_ & new_n94_;
-  assign new_n96_ = new_n61_ & new_n95_;
-  assign new_n97_ = ~new_n93_ & ~new_n96_;
-  assign new_n98_ = x16 & ~new_n97_;
-  assign new_n99_ = ~x10 & ~x16;
-  assign new_n100_ = ~x18 & ~new_n99_;
-  assign z05 = new_n98_ | ~new_n100_;
-  assign new_n102_ = x25 & ~new_n96_;
-  assign new_n103_ = ~x24 & ~x25;
-  assign new_n104_ = new_n85_ & new_n103_;
-  assign new_n105_ = new_n69_ & new_n104_;
-  assign new_n106_ = ~new_n102_ & ~new_n105_;
-  assign new_n107_ = x16 & ~new_n106_;
-  assign new_n108_ = ~x09 & ~x16;
-  assign new_n109_ = ~x18 & ~new_n108_;
-  assign z06 = new_n107_ | ~new_n109_;
-  assign new_n111_ = x26 & ~new_n105_;
-  assign new_n112_ = ~x25 & ~x26;
-  assign new_n113_ = ~x24 & new_n112_;
-  assign new_n114_ = new_n85_ & new_n113_;
-  assign new_n115_ = new_n69_ & new_n114_;
-  assign new_n116_ = ~new_n111_ & ~new_n115_;
-  assign new_n117_ = x16 & ~new_n116_;
-  assign new_n118_ = ~x08 & ~x16;
-  assign new_n119_ = ~x18 & ~new_n118_;
-  assign z07 = new_n117_ | ~new_n119_;
-  assign new_n121_ = x27 & ~new_n115_;
-  assign new_n122_ = ~x26 & ~x27;
-  assign new_n123_ = ~x25 & new_n122_;
-  assign new_n124_ = new_n94_ & new_n123_;
-  assign new_n125_ = new_n78_ & new_n124_;
-  assign new_n126_ = ~new_n121_ & ~new_n125_;
-  assign new_n127_ = x16 & ~new_n126_;
-  assign new_n128_ = ~x07 & ~x16;
-  assign new_n129_ = ~x18 & ~new_n128_;
-  assign z08 = new_n127_ | ~new_n129_;
-  assign new_n131_ = x28 & ~new_n125_;
-  assign new_n132_ = ~x23 & new_n103_;
-  assign new_n133_ = ~x27 & ~x28;
-  assign new_n134_ = ~x26 & new_n133_;
-  assign new_n135_ = new_n132_ & new_n134_;
-  assign new_n136_ = new_n78_ & new_n135_;
-  assign new_n137_ = ~new_n131_ & ~new_n136_;
-  assign new_n138_ = x16 & ~new_n137_;
-  assign new_n139_ = ~x06 & ~x16;
-  assign new_n140_ = ~x18 & ~new_n139_;
-  assign z09 = new_n138_ | ~new_n140_;
-  assign new_n142_ = x29 & ~new_n136_;
-  assign new_n143_ = ~x28 & ~x29;
-  assign new_n144_ = ~x27 & new_n143_;
-  assign new_n145_ = new_n113_ & new_n144_;
-  assign new_n146_ = new_n87_ & new_n145_;
-  assign new_n147_ = ~new_n142_ & ~new_n146_;
-  assign new_n148_ = x16 & ~new_n147_;
-  assign new_n149_ = ~x05 & ~x16;
-  assign new_n150_ = ~x18 & ~new_n149_;
-  assign z10 = new_n148_ | ~new_n150_;
-  assign new_n152_ = x30 & ~new_n146_;
-  assign new_n153_ = ~x29 & ~x30;
-  assign new_n154_ = new_n133_ & new_n153_;
-  assign new_n155_ = new_n113_ & new_n154_;
-  assign new_n156_ = new_n87_ & new_n155_;
-  assign new_n157_ = ~new_n152_ & ~new_n156_;
-  assign new_n158_ = x16 & ~new_n157_;
-  assign new_n159_ = ~x04 & ~x16;
-  assign new_n160_ = ~x18 & ~new_n159_;
-  assign z11 = new_n158_ | ~new_n160_;
-  assign new_n162_ = x31 & ~new_n156_;
-  assign new_n163_ = ~x30 & ~x31;
-  assign new_n164_ = new_n143_ & new_n163_;
-  assign new_n165_ = new_n123_ & new_n164_;
-  assign new_n166_ = new_n96_ & new_n165_;
-  assign new_n167_ = ~new_n162_ & ~new_n166_;
-  assign new_n168_ = x16 & ~new_n167_;
-  assign new_n169_ = ~x03 & ~x16;
-  assign new_n170_ = ~x18 & ~new_n169_;
-  assign z12 = new_n168_ | ~new_n170_;
-  assign new_n172_ = x32 & ~new_n166_;
-  assign new_n173_ = new_n112_ & new_n133_;
-  assign new_n174_ = ~x31 & ~x32;
-  assign new_n175_ = new_n153_ & new_n174_;
-  assign new_n176_ = new_n173_ & new_n175_;
-  assign new_n177_ = new_n96_ & new_n176_;
-  assign new_n178_ = ~new_n172_ & ~new_n177_;
-  assign new_n179_ = x16 & ~new_n178_;
-  assign new_n180_ = ~x02 & ~x16;
-  assign new_n181_ = ~x18 & ~new_n180_;
-  assign z13 = new_n179_ | ~new_n181_;
-  assign new_n183_ = x33 & ~new_n177_;
-  assign new_n184_ = new_n122_ & new_n143_;
-  assign new_n185_ = ~x32 & ~x33;
-  assign new_n186_ = new_n163_ & new_n185_;
-  assign new_n187_ = new_n184_ & new_n186_;
-  assign new_n188_ = new_n105_ & new_n187_;
-  assign new_n189_ = ~new_n183_ & ~new_n188_;
-  assign new_n190_ = x16 & ~new_n189_;
-  assign new_n191_ = ~x01 & ~x16;
-  assign new_n192_ = ~x18 & ~new_n191_;
-  assign z14 = new_n190_ | ~new_n192_;
-  assign new_n194_ = x34 & ~new_n188_;
-  assign new_n195_ = ~x33 & ~x34;
-  assign new_n196_ = ~x32 & new_n195_;
-  assign new_n197_ = new_n163_ & new_n196_;
-  assign new_n198_ = new_n184_ & new_n197_;
-  assign new_n199_ = new_n105_ & new_n198_;
-  assign new_n200_ = ~new_n194_ & ~new_n199_;
-  assign new_n201_ = x16 & ~new_n200_;
-  assign new_n202_ = ~x00 & ~x16;
-  assign new_n203_ = ~x18 & ~new_n202_;
-  assign z15 = new_n201_ | ~new_n203_;
+  inv1   g000(.a(x17), .O(new_n52_));
+  inv1   g001(.a(x19), .O(new_n53_));
+  nor2   g002(.a(new_n53_), .b(new_n52_), .O(new_n54_));
+  nor2   g003(.a(x19), .b(x17), .O(new_n55_));
+  oai21  g004(.a(new_n55_), .b(new_n54_), .c(x16), .O(new_n56_));
+  inv1   g005(.a(x15), .O(new_n57_));
+  inv1   g006(.a(x16), .O(new_n58_));
+  aoi21  g007(.a(new_n58_), .b(new_n57_), .c(x18), .O(new_n59_));
+  nand2  g008(.a(new_n59_), .b(new_n56_), .O(z00));
+  inv1   g009(.a(x20), .O(new_n61_));
+  nor2   g010(.a(new_n55_), .b(new_n61_), .O(new_n62_));
+  nand3  g011(.a(new_n61_), .b(new_n53_), .c(new_n52_), .O(new_n63_));
+  inv1   g012(.a(new_n63_), .O(new_n64_));
+  oai21  g013(.a(new_n64_), .b(new_n62_), .c(x16), .O(new_n65_));
+  inv1   g014(.a(x14), .O(new_n66_));
+  aoi21  g015(.a(new_n58_), .b(new_n66_), .c(x18), .O(new_n67_));
+  nand2  g016(.a(new_n67_), .b(new_n65_), .O(z01));
+  inv1   g017(.a(x21), .O(new_n69_));
+  nand4  g018(.a(new_n69_), .b(new_n61_), .c(new_n53_), .d(new_n52_), .O(new_n70_));
+  inv1   g019(.a(new_n70_), .O(new_n71_));
+  aoi21  g020(.a(new_n63_), .b(x21), .c(new_n71_), .O(new_n72_));
+  inv1   g021(.a(x13), .O(new_n73_));
+  aoi21  g022(.a(new_n58_), .b(new_n73_), .c(x18), .O(new_n74_));
+  oai21  g023(.a(new_n72_), .b(new_n58_), .c(new_n74_), .O(z02));
+  nor3   g024(.a(x22), .b(x21), .c(x20), .O(new_n76_));
+  aoi22  g025(.a(new_n76_), .b(new_n55_), .c(new_n70_), .d(x22), .O(new_n77_));
+  inv1   g026(.a(x12), .O(new_n78_));
+  aoi21  g027(.a(new_n58_), .b(new_n78_), .c(x18), .O(new_n79_));
+  oai21  g028(.a(new_n77_), .b(new_n58_), .c(new_n79_), .O(z03));
+  nor2   g029(.a(x22), .b(x21), .O(new_n81_));
+  nand3  g030(.a(new_n81_), .b(new_n55_), .c(new_n61_), .O(new_n82_));
+  nor3   g031(.a(x23), .b(x22), .c(x21), .O(new_n83_));
+  aoi22  g032(.a(new_n83_), .b(new_n64_), .c(new_n82_), .d(x23), .O(new_n84_));
+  inv1   g033(.a(x11), .O(new_n85_));
+  aoi21  g034(.a(new_n58_), .b(new_n85_), .c(x18), .O(new_n86_));
+  oai21  g035(.a(new_n84_), .b(new_n58_), .c(new_n86_), .O(z04));
+  inv1   g036(.a(x24), .O(new_n88_));
+  aoi21  g037(.a(new_n83_), .b(new_n64_), .c(new_n88_), .O(new_n89_));
+  inv1   g038(.a(x22), .O(new_n90_));
+  inv1   g039(.a(x23), .O(new_n91_));
+  nand4  g040(.a(new_n88_), .b(new_n91_), .c(new_n90_), .d(new_n69_), .O(new_n92_));
+  nor2   g041(.a(new_n92_), .b(new_n63_), .O(new_n93_));
+  oai21  g042(.a(new_n93_), .b(new_n89_), .c(x16), .O(new_n94_));
+  inv1   g043(.a(x10), .O(new_n95_));
+  aoi21  g044(.a(new_n58_), .b(new_n95_), .c(x18), .O(new_n96_));
+  nand2  g045(.a(new_n96_), .b(new_n94_), .O(z05));
+  nor2   g046(.a(x20), .b(x19), .O(new_n98_));
+  nor2   g047(.a(x24), .b(x23), .O(new_n99_));
+  nand4  g048(.a(new_n99_), .b(new_n81_), .c(new_n98_), .d(new_n52_), .O(new_n100_));
+  inv1   g049(.a(x25), .O(new_n101_));
+  nand4  g050(.a(new_n101_), .b(new_n88_), .c(new_n91_), .d(new_n90_), .O(new_n102_));
+  nor2   g051(.a(new_n102_), .b(new_n70_), .O(new_n103_));
+  aoi21  g052(.a(new_n100_), .b(x25), .c(new_n103_), .O(new_n104_));
+  inv1   g053(.a(x09), .O(new_n105_));
+  aoi21  g054(.a(new_n58_), .b(new_n105_), .c(x18), .O(new_n106_));
+  oai21  g055(.a(new_n104_), .b(new_n58_), .c(new_n106_), .O(z06));
+  nor2   g056(.a(x21), .b(x20), .O(new_n108_));
+  nor2   g057(.a(x23), .b(x22), .O(new_n109_));
+  nor2   g058(.a(x25), .b(x24), .O(new_n110_));
+  nand4  g059(.a(new_n110_), .b(new_n109_), .c(new_n108_), .d(new_n55_), .O(new_n111_));
+  nand2  g060(.a(new_n111_), .b(x26), .O(new_n112_));
+  nor3   g061(.a(x26), .b(x25), .c(x24), .O(new_n113_));
+  nand3  g062(.a(new_n113_), .b(new_n109_), .c(new_n71_), .O(new_n114_));
+  nand2  g063(.a(new_n114_), .b(new_n112_), .O(new_n115_));
+  nand2  g064(.a(new_n115_), .b(x16), .O(new_n116_));
+  inv1   g065(.a(x08), .O(new_n117_));
+  aoi21  g066(.a(new_n58_), .b(new_n117_), .c(x18), .O(new_n118_));
+  nand2  g067(.a(new_n118_), .b(new_n116_), .O(z07));
+  nor2   g068(.a(x27), .b(x26), .O(new_n120_));
+  nand3  g069(.a(new_n120_), .b(new_n99_), .c(new_n101_), .O(new_n121_));
+  nor2   g070(.a(new_n121_), .b(new_n82_), .O(new_n122_));
+  aoi21  g071(.a(new_n114_), .b(x27), .c(new_n122_), .O(new_n123_));
+  inv1   g072(.a(x07), .O(new_n124_));
+  aoi21  g073(.a(new_n58_), .b(new_n124_), .c(x18), .O(new_n125_));
+  oai21  g074(.a(new_n123_), .b(new_n58_), .c(new_n125_), .O(z08));
+  inv1   g075(.a(x28), .O(new_n127_));
+  nor3   g076(.a(x25), .b(x24), .c(x23), .O(new_n128_));
+  nor3   g077(.a(x28), .b(x27), .c(x26), .O(new_n129_));
+  nand4  g078(.a(new_n129_), .b(new_n128_), .c(new_n76_), .d(new_n55_), .O(new_n130_));
+  oai21  g079(.a(new_n122_), .b(new_n127_), .c(new_n130_), .O(new_n131_));
+  nand2  g080(.a(new_n131_), .b(x16), .O(new_n132_));
+  inv1   g081(.a(x06), .O(new_n133_));
+  aoi21  g082(.a(new_n58_), .b(new_n133_), .c(x18), .O(new_n134_));
+  nand2  g083(.a(new_n134_), .b(new_n132_), .O(z09));
+  nand4  g084(.a(new_n109_), .b(new_n98_), .c(new_n69_), .d(new_n52_), .O(new_n136_));
+  inv1   g085(.a(x27), .O(new_n137_));
+  nor2   g086(.a(x26), .b(x25), .O(new_n138_));
+  nor2   g087(.a(x29), .b(x28), .O(new_n139_));
+  nand4  g088(.a(new_n139_), .b(new_n138_), .c(new_n137_), .d(new_n88_), .O(new_n140_));
+  nor2   g089(.a(new_n140_), .b(new_n136_), .O(new_n141_));
+  aoi21  g090(.a(new_n130_), .b(x29), .c(new_n141_), .O(new_n142_));
+  inv1   g091(.a(x05), .O(new_n143_));
+  aoi21  g092(.a(new_n58_), .b(new_n143_), .c(x18), .O(new_n144_));
+  oai21  g093(.a(new_n142_), .b(new_n58_), .c(new_n144_), .O(z10));
+  nor3   g094(.a(x29), .b(x28), .c(x27), .O(new_n146_));
+  nand4  g095(.a(new_n146_), .b(new_n113_), .c(new_n83_), .d(new_n64_), .O(new_n147_));
+  nor2   g096(.a(x28), .b(x27), .O(new_n148_));
+  nor2   g097(.a(x30), .b(x29), .O(new_n149_));
+  nand4  g098(.a(new_n149_), .b(new_n148_), .c(new_n138_), .d(new_n88_), .O(new_n150_));
+  nor2   g099(.a(new_n150_), .b(new_n136_), .O(new_n151_));
+  aoi21  g100(.a(new_n147_), .b(x30), .c(new_n151_), .O(new_n152_));
+  inv1   g101(.a(x04), .O(new_n153_));
+  aoi21  g102(.a(new_n58_), .b(new_n153_), .c(x18), .O(new_n154_));
+  oai21  g103(.a(new_n152_), .b(new_n58_), .c(new_n154_), .O(z11));
+  oai21  g104(.a(new_n150_), .b(new_n136_), .c(x31), .O(new_n156_));
+  nor3   g105(.a(x27), .b(x26), .c(x25), .O(new_n157_));
+  nor2   g106(.a(x31), .b(x30), .O(new_n158_));
+  nand2  g107(.a(new_n158_), .b(new_n139_), .O(new_n159_));
+  inv1   g108(.a(new_n159_), .O(new_n160_));
+  nand3  g109(.a(new_n160_), .b(new_n157_), .c(new_n93_), .O(new_n161_));
+  nand2  g110(.a(new_n161_), .b(new_n156_), .O(new_n162_));
+  nand2  g111(.a(new_n162_), .b(x16), .O(new_n163_));
+  inv1   g112(.a(x03), .O(new_n164_));
+  aoi21  g113(.a(new_n58_), .b(new_n164_), .c(x18), .O(new_n165_));
+  nand2  g114(.a(new_n165_), .b(new_n163_), .O(z12));
+  nand4  g115(.a(new_n158_), .b(new_n139_), .c(new_n120_), .d(new_n101_), .O(new_n167_));
+  oai21  g116(.a(new_n167_), .b(new_n100_), .c(x32), .O(new_n168_));
+  nor2   g117(.a(x32), .b(x31), .O(new_n169_));
+  nand4  g118(.a(new_n169_), .b(new_n149_), .c(new_n148_), .d(new_n138_), .O(new_n170_));
+  inv1   g119(.a(new_n170_), .O(new_n171_));
+  nand2  g120(.a(new_n171_), .b(new_n93_), .O(new_n172_));
+  nand2  g121(.a(new_n172_), .b(new_n168_), .O(new_n173_));
+  nand2  g122(.a(new_n173_), .b(x16), .O(new_n174_));
+  inv1   g123(.a(x02), .O(new_n175_));
+  aoi21  g124(.a(new_n58_), .b(new_n175_), .c(x18), .O(new_n176_));
+  nand2  g125(.a(new_n176_), .b(new_n174_), .O(z13));
+  oai21  g126(.a(new_n170_), .b(new_n100_), .c(x33), .O(new_n178_));
+  nor2   g127(.a(x33), .b(x32), .O(new_n179_));
+  nand4  g128(.a(new_n179_), .b(new_n158_), .c(new_n139_), .d(new_n120_), .O(new_n180_));
+  inv1   g129(.a(new_n180_), .O(new_n181_));
+  nand2  g130(.a(new_n181_), .b(new_n103_), .O(new_n182_));
+  nand2  g131(.a(new_n182_), .b(new_n178_), .O(new_n183_));
+  nand2  g132(.a(new_n183_), .b(x16), .O(new_n184_));
+  inv1   g133(.a(x01), .O(new_n185_));
+  aoi21  g134(.a(new_n58_), .b(new_n185_), .c(x18), .O(new_n186_));
+  nand2  g135(.a(new_n186_), .b(new_n184_), .O(z14));
+  oai21  g136(.a(new_n180_), .b(new_n111_), .c(x34), .O(new_n188_));
+  nand2  g137(.a(new_n139_), .b(new_n120_), .O(new_n189_));
+  inv1   g138(.a(new_n189_), .O(new_n190_));
+  inv1   g139(.a(x30), .O(new_n191_));
+  inv1   g140(.a(x31), .O(new_n192_));
+  nand2  g141(.a(new_n192_), .b(new_n191_), .O(new_n193_));
+  inv1   g142(.a(x32), .O(new_n194_));
+  inv1   g143(.a(x33), .O(new_n195_));
+  inv1   g144(.a(x34), .O(new_n196_));
+  nand3  g145(.a(new_n196_), .b(new_n195_), .c(new_n194_), .O(new_n197_));
+  nor2   g146(.a(new_n197_), .b(new_n193_), .O(new_n198_));
+  nand3  g147(.a(new_n198_), .b(new_n190_), .c(new_n103_), .O(new_n199_));
+  nand2  g148(.a(new_n199_), .b(new_n188_), .O(new_n200_));
+  nand2  g149(.a(new_n200_), .b(x16), .O(new_n201_));
+  inv1   g150(.a(x00), .O(new_n202_));
+  aoi21  g151(.a(new_n58_), .b(new_n202_), .c(x18), .O(new_n203_));
+  nand2  g152(.a(new_n203_), .b(new_n201_), .O(z15));
 endmodule
 
 

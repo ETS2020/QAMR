@@ -1,61 +1,52 @@
-// Benchmark "FAU" written by ABC on Tue Aug 18 10:20:11 2020
+// Benchmark "FAU" written by ABC on Tue Aug 18 10:29:20 2020
 
 module FAU ( 
     x0, x1, x2, x3, x4, x5, x6, x7, x8, x9,
     z0, z1, z2, z3, z4, z5, z6  );
   input  x0, x1, x2, x3, x4, x5, x6, x7, x8, x9;
   output z0, z1, z2, z3, z4, z5, z6;
-  wire new_n18_, new_n20_, new_n21_, new_n22_, new_n24_, new_n26_, new_n27_,
-    new_n28_, new_n29_, new_n31_, new_n32_, new_n34_, new_n35_, new_n36_,
+  wire new_n18_, new_n20_, new_n21_, new_n22_, new_n23_, new_n25_, new_n27_,
+    new_n29_, new_n31_, new_n32_, new_n33_, new_n34_, new_n35_, new_n36_,
     new_n37_, new_n38_, new_n39_, new_n40_, new_n41_, new_n42_, new_n43_,
-    new_n44_, new_n45_, new_n46_, new_n48_, new_n49_, new_n50_, new_n51_,
-    new_n52_, new_n53_, new_n54_, new_n55_, new_n56_, new_n57_, new_n58_,
-    new_n59_, new_n60_, new_n61_;
-  assign new_n18_ = x7 & x8;
-  assign z0 = x9 | ~new_n18_;
-  assign new_n20_ = x7 & ~x9;
-  assign new_n21_ = ~x7 & x9;
-  assign new_n22_ = ~new_n20_ & ~new_n21_;
-  assign z1 = x8 | ~new_n22_;
-  assign new_n24_ = ~x7 & ~x8;
-  assign z2 = ~x9 & new_n24_;
-  assign new_n26_ = ~x7 & x8;
-  assign new_n27_ = ~x9 & new_n26_;
-  assign new_n28_ = ~x0 & ~x1;
-  assign new_n29_ = ~x2 & new_n28_;
-  assign z3 = ~new_n27_ | ~new_n29_;
-  assign new_n31_ = x8 & x9;
-  assign new_n32_ = x6 & ~new_n31_;
-  assign z4 = ~x7 | ~new_n32_;
-  assign new_n34_ = x7 & new_n31_;
-  assign new_n35_ = ~new_n24_ & ~new_n34_;
-  assign new_n36_ = x2 & ~new_n35_;
-  assign new_n37_ = ~x1 & new_n36_;
-  assign new_n38_ = ~x0 & new_n37_;
-  assign new_n39_ = ~x4 & x7;
-  assign new_n40_ = x3 & new_n39_;
-  assign new_n41_ = x8 & ~new_n40_;
-  assign new_n42_ = ~x9 & ~new_n41_;
-  assign new_n43_ = x5 & ~x7;
-  assign new_n44_ = new_n31_ & new_n43_;
-  assign new_n45_ = x6 & ~new_n44_;
-  assign new_n46_ = ~new_n42_ & new_n45_;
-  assign z5 = new_n38_ | ~new_n46_;
-  assign new_n48_ = x5 & new_n31_;
-  assign new_n49_ = ~x8 & ~x9;
-  assign new_n50_ = ~new_n48_ & ~new_n49_;
-  assign new_n51_ = ~x7 & ~new_n50_;
-  assign new_n52_ = ~x1 & ~x2;
-  assign new_n53_ = ~x0 & new_n52_;
-  assign new_n54_ = x8 & ~new_n53_;
-  assign new_n55_ = x9 & ~new_n54_;
-  assign new_n56_ = x3 & x4;
-  assign new_n57_ = x8 & ~x9;
-  assign new_n58_ = new_n56_ & new_n57_;
-  assign new_n59_ = ~new_n55_ & ~new_n58_;
-  assign new_n60_ = x7 & ~new_n59_;
-  assign new_n61_ = x6 & ~new_n60_;
-  assign z6 = new_n51_ | ~new_n61_;
+    new_n45_, new_n46_, new_n47_, new_n48_, new_n49_, new_n50_, new_n51_,
+    new_n52_, new_n53_;
+  inv1   g00(.a(x9), .O(new_n18_));
+  nand3  g01(.a(new_n18_), .b(x8), .c(x7), .O(z0));
+  inv1   g02(.a(x8), .O(new_n20_));
+  nand2  g03(.a(new_n18_), .b(x7), .O(new_n21_));
+  inv1   g04(.a(x7), .O(new_n22_));
+  nand2  g05(.a(x9), .b(new_n22_), .O(new_n23_));
+  nand3  g06(.a(new_n23_), .b(new_n21_), .c(new_n20_), .O(z1));
+  nand2  g07(.a(new_n20_), .b(new_n22_), .O(new_n25_));
+  nor2   g08(.a(new_n25_), .b(x9), .O(z2));
+  nor3   g09(.a(x2), .b(x1), .c(x0), .O(new_n27_));
+  nand4  g10(.a(new_n27_), .b(new_n18_), .c(x8), .d(new_n22_), .O(z3));
+  nand2  g11(.a(x9), .b(x8), .O(new_n29_));
+  nand3  g12(.a(new_n29_), .b(x7), .c(x6), .O(z4));
+  inv1   g13(.a(x0), .O(new_n31_));
+  inv1   g14(.a(x1), .O(new_n32_));
+  oai21  g15(.a(new_n29_), .b(new_n22_), .c(new_n25_), .O(new_n33_));
+  nand4  g16(.a(new_n33_), .b(x2), .c(new_n32_), .d(new_n31_), .O(new_n34_));
+  inv1   g17(.a(x4), .O(new_n35_));
+  nand3  g18(.a(x7), .b(new_n35_), .c(x3), .O(new_n36_));
+  nand2  g19(.a(new_n36_), .b(x8), .O(new_n37_));
+  nand2  g20(.a(new_n37_), .b(new_n18_), .O(new_n38_));
+  inv1   g21(.a(x6), .O(new_n39_));
+  inv1   g22(.a(new_n29_), .O(new_n40_));
+  inv1   g23(.a(x5), .O(new_n41_));
+  nor2   g24(.a(x7), .b(new_n41_), .O(new_n42_));
+  aoi21  g25(.a(new_n42_), .b(new_n40_), .c(new_n39_), .O(new_n43_));
+  nand3  g26(.a(new_n43_), .b(new_n38_), .c(new_n34_), .O(z5));
+  nand2  g27(.a(new_n18_), .b(new_n20_), .O(new_n45_));
+  oai21  g28(.a(new_n29_), .b(new_n41_), .c(new_n45_), .O(new_n46_));
+  nand2  g29(.a(new_n46_), .b(new_n22_), .O(new_n47_));
+  inv1   g30(.a(x2), .O(new_n48_));
+  nand3  g31(.a(new_n48_), .b(new_n32_), .c(new_n31_), .O(new_n49_));
+  aoi21  g32(.a(new_n49_), .b(x8), .c(new_n18_), .O(new_n50_));
+  nand4  g33(.a(new_n18_), .b(x8), .c(x4), .d(x3), .O(new_n51_));
+  inv1   g34(.a(new_n51_), .O(new_n52_));
+  oai21  g35(.a(new_n52_), .b(new_n50_), .c(x7), .O(new_n53_));
+  nand3  g36(.a(new_n53_), .b(new_n47_), .c(x6), .O(z6));
 endmodule
 
 
