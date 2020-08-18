@@ -11,3 +11,5 @@
  Probability of crossover of binary variable = 6.000000e-01
  Probability of mutation of binary variable 1 = 7.812500e-03
  Seed for random number generator = 4.447260e-01
+ Number of crossover of binary variable = 39206
+ Number of mutation of binary variable  = 978114
