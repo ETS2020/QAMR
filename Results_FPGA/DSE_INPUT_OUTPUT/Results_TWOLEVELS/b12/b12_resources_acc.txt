@@ -1,2 +1,2 @@
-Cubes   : 1293
-Literals: 5547
+Latency: 2.000000
+Area   : 51.000000

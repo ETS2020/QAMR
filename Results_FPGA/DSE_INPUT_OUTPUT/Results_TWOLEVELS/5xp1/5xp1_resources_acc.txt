@@ -1,2 +1,2 @@
-Cubes   : 225
-Literals: 888
+Latency: 2.000000
+Area   : 48.000000

@@ -1,4 +1,4 @@
-// Benchmark "FAU" written by ABC on Thu Aug 20 15:06:12 2020
+// Benchmark "FAU" written by ABC on Thu Aug 20 15:20:06 2020
 
 module FAU ( 
     x0, x1, x2, x3, x4, x5, x6,
